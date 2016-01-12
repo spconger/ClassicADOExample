@@ -1,0 +1,52 @@
+﻿/*
+    I did more here than I expect you to do
+    A couple of things to note:
+    the only positioning I did was to set
+    a top margin on the table and some
+    padding in the cells. These work because
+    the GridView control renders in the browser
+    as a table. I also created a class to format
+    the list. If I only formatted the Select/Option
+    tags (what the drop down list is rendered as)
+    the formatting didn't take effect until I 
+    clicked on the list. By creating the class
+    and applying it directly to the control
+    it works from the start.
+*/
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+}
+
+h1{
+    width:40%;
+    color:navy;
+
+}
+
+hr{
+    width:40%;
+    text-align:left;
+}
+
+table{
+    margin-top:3em;
+}
+
+table tr th{
+    background-color:navy;
+    color:white;
+    border:solid 2px black;
+}
+
+table tr td{
+    border:solid 2px black;
+    padding:4px 4px 4px 4px;
+}
+
+.list{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+}
+
